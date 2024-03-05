@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.active {
+  color: black;
+  font-weight: 500;
+}
+.swiper-wrapper {
+  width: 94.5% !important;
+  padding: 10px 4px !important;
+  padding-bottom: 25px !important;
+  margin: 20px auto !important;
+}
+.swiper-slide {
+  width: 370px !important;
+}
+.swiper-button-next {
+  right: 0 !important;
+  left: auto;
+  color: black !important;
+}
+.swiper-button-prev {
+  right: auto;
+  left: 0 !important;
+  color: black !important;
+}
+
+.swiper-pagination {
+  padding: 8px 0 !important;
+}
